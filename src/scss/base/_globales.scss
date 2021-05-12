@@ -1,0 +1,32 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before,*:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: $principalFuente;
+    font-size: 1rem;
+    background-color: #202e38;
+    color: $blanco;
+
+}
+p{
+    font-size: 1rem;
+}
+
+h1,h2{
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 1rem;
+}
+h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 3rem;
+}
+

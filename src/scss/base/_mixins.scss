@@ -1,0 +1,37 @@
+@mixin telefono {
+    @media(min-width: $telefono){
+        /* "Directivas"
+        @content se utliza para que el mixin
+        soporte Block de code y sea mas facil utilizarlo
+        multiples veces
+        */
+        @content; 
+    }
+}
+
+@mixin tablet {
+    @media(min-width: $tablet){
+        /* "Directivas"
+        @content se utliza para que el mixin
+        soporte Block de code y sea mas facil utilizarlo
+        multiples veces
+        */
+        @content; 
+    }
+}
+
+@mixin desktop {
+    @media(min-width: $desktop){
+        /* "Directivas"
+        @content se utliza para que el mixin
+        soporte Block de code y sea mas facil utilizarlo
+        multiples veces
+        */
+        @content; 
+    }
+}
+@mixin grid($colomnas,$espaciado) {
+    display: grid;
+    grid-template-columns: repeat($colomnas,1fr);
+    gap: $espaciado;
+}

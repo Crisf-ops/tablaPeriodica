@@ -1,0 +1,15 @@
+{
+  "name": "tabla",
+  "version": "1.0.0",
+  "description": "Tabla periodica p",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cristian Felipe Arredondo Garcia",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}
